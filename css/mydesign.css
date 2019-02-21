@@ -1,0 +1,78 @@
+#counters:before, .particle-home:before, .video-home:before {
+  background-color: rgba(0, 0, 0, 0); }
+.mb_YTPTime{}
+.buttonBar{
+margin-top: 10rem;
+margin-left: 10rem;
+
+  color: white;
+}
+
+.posts-servicios{
+background-color: white !important;
+}
+
+.head-servivios{
+  margin: 5vh 0 0 0;
+  background-color: #f8f8f8 !important;
+}
+.titulos-servicios{
+  margin: 0 0 0 0;
+}
+.fotos-servicios{
+  margin: 0 0 0 0;
+}
+.texto-carrusel{
+  position: absolute;
+  float: left;
+}
+.carrusel-portada{
+  padding: 5vh 0 -10vh 0;
+}
+.respuestas{
+  padding: 12vh 0 0 0;
+}
+.respuestas_final{
+  padding: 12vh 0 0 0;
+}
+#tamaño-minimo{
+  min-height: 37vh !important;
+  max-height: 37vh !important;
+
+}
+.service-box .service{
+  min-height: 100vh;
+
+}
+
+.contactos-servicios-1{
+background-color: #white !important;
+padding:5vh 0 5vh 0;
+}
+/* .photo-contact{
+  margin: 30vh 0 0 5vh;
+  width: 1000px;
+} */
+
+.transparente{
+opacity: 0.5;
+-moz-opacity: 0.5;
+filter: alpha(opacity=50);
+-khtml-opacity: 0.5;
+}
+.color-white{
+  color: white !important;
+}
+/*  Respuestas*/
+.seccion-respuestas{
+  background-color: #eeeded;
+  padding-bottom: 10vh;
+}
+
+/*  boton contactanos*/
+.diseño-boton-contacto{
+  text-align: center;
+  font-size: 3vh;
+  margin: 5vh 0 0 0;
+  padding: 1.5vh 57vh 1.5vh 57vh;
+}
