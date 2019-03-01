@@ -35,24 +35,12 @@ background-color: white !important;
 .respuestas_final{
   padding: 12vh 0 0 0;
 }
-#tamaño-minimo{
-  min-height: 37vh !important;
-  max-height: 37vh !important;
-
-}
-.service-box .service{
-  min-height: 100vh;
-
-}
 
 .contactos-servicios-1{
 background-color: #white !important;
 padding:5vh 0 5vh 0;
 }
-/* .photo-contact{
-  margin: 30vh 0 0 5vh;
-  width: 1000px;
-} */
+
 
 .transparente{
 opacity: 0.5;
@@ -75,4 +63,9 @@ filter: alpha(opacity=50);
   font-size: 3vh;
   margin: 5vh 0 0 0;
   padding: 1.5vh 57vh 1.5vh 57vh;
+}
+
+/*  Foto landing servicios*/
+#breadcrumbs{
+    height: 480px !important;
 }

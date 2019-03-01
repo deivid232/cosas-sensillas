@@ -88,45 +88,112 @@
 
     <!--[2] Home Section-->
     <section>
-      <div class="carousel-item active">
+    <!--[2] Breadcrumbs-->
+  <section id="breadcrumbs" style="background-image: url(imagenes/portada-abogado-3.png)">
+      <div class=" float-left container d-flex flex-column justify-content-center align-items-center">
+          <h1 class="text-white font-weight-bold text-center mb-1">Servicio jurídico de confianza</h1><br>
+            <h3 class="text-white font-weight-bold text-left mb-1">
+              Estudio de abogados expertos en exigir <br>tus derechos como consumidor </h3>
+              <h5 class="text-white font-weight-bold text-center mb-1">
+                Consulta con un abogado, es gratis <br> </h5>
+            <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Reclamar ahora</button>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Confía en nosotros.</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
 
-            <img src="imagenes/portada-abogado-3.png" class="" style="width: 95%; padding: 10vh 0 0 5vh" alt="..." >
-            <!-- <div class="carousel-caption col-xl-6 col-md-6" style="padding: 10vh 35vh 30vh 0"> -->
-            <div class="carousel-caption col-xl-5 col-md-5" style="padding: 30% 30vh 20vh 0;">
-              <h2 class="text-primary text-center">Servicio jurídico de confianza, asesórate de forma gratuita</h2>
-              <h3 class="text-secondary text-center">Somos un estudio de abogados expertos en proteger tus derechos</h3>
-              <a href="#contactanos"><button type="button" class="btn btn-primary btn-lg float-center">RECLAMA AHORA</button></a>
+        <div class="modal-body text-blue" >
+          <form method="post">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" required="" class="form-control" placeholder="Pedro">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" required="" class="form-control" placeholder="Perez">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input type="email" name="email" required="" class="form-control" placeholder="pedroperez@gmail.com">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="telefono">Telefono</label>
+                <input type="text" name="telefono" required="" class="form-control" placeholder="+56 9 777687792">
+              </div>
             </div>
-          </div>
-    </section>
+            <div class="form-group">
+              <label for="asunto" class="col-form-label">Cúentanos tu caso.</label>
+              <textarea name="asunto"  required="" class="form-control"></textarea>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <input type="submit" name="enviar" class="btn btn-primary" >
+            </div>
+          </form>
+          <?php
+            include("mandarmail.php")
+          ?>
+        </div>
+      </div>
+    </div>
+  </section>
+    <form id="main-contact-form" class="contact-form" name="contact-form" method="post">
+      <div class="col-sm-5 col-sm-offset-1">
+          <div class="form-group">
+             <label>Nombre *</label>
+             <input type="text" id="nombre" name="nombre" class="form-control" required="required">
+           </div>
 
+           <div class="form-group">
+              <label>Email *</label>
+              <input type="email" id="email" name="email" class="form-control" required="required">
+           </div>
+
+           <div class="form-group">
+               <label>Asunto *</label>
+               <input type="text" id="subject" name="subject" class="form-control" required="required">
+           </div>
+
+           <div class="form-group">
+                <label>Mensaje *</label>
+                <textarea name="mensaje" id="mensaje" required="required" class="form-control" rows="8"></textarea>
+           </div>
+
+           <div class="form-group">
+                <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg" value="enviar" />
+           </div>
+      </div>
+</form>
+<?php
+  include("enviar.php")
+?>
     <section id="services">
         <div class="container">
           <a name="servicios"></a>
-          <h3 class="section-title text-center font-weight-bold ">¿Tuviste algún problema relacionado con cobros abusivos, mal servicio, agresiones del personal, publicidad engañosa?</h3>
-            <h2 class="section-title text-center font-weight-bold ">Areas<span
-                    class="font-weight-black"> Legales</span></h2>
+          <h1 class="section-title text-center font-weight-black"><span
+                  class="font-weight-black"> ¿Tuviste problemas con alguno de estos servicios?</span></h1>
             <div class="row d-flex align-items-stretch">
                 <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service" id="tamaño-minimo">
-                        <div class="header-service d-flex align-items-center">
-                            <i class="fas fa-plane"></i>
-                            <h5 class="mb-0 ml-2">Aereolineas y Agencias de viajes</h5>
+                    <div class="service" >
+                        <div class="header-service  text-center d-flex">
+                            <h1 class="text-center"><i class="fas fa-plane " style="font-size: 100px; padding: 0 0 0 30px;"></i></h1>
                         </div>
                         <div class="service-body">
-                            <p class="mb-0">
-                              ¿Se atrasó o canceló el vuelo? <br>
-                              ¿Te cobraron demás?<br>
-                              ¿Fueron distintas las condiciones del viaje a las pactadas? <br>
-                              ¿Se produjeron situaciones de violencia o discriminación?
-                            </p>
+                              <h5 class="mb-0 ml-2">Aereolineas y Agencias de viajes</h5><br>
                             <a class="nav-link font-weight-medium btn btn-info" href="1aereolineas.html">Informate</a>
                         </div>
                         <div class="anim-bar"></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service" id="tamaño-minimo">
+                    <div class="service" >
                         <div class="header-service d-flex align-items-center">
                             <i class="fas fa-hotel"></i>
                             <h5 class="mb-0 ml-2">Hoteles, Resort y Turismo</h5>
@@ -143,7 +210,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service" id="tamaño-minimo">
+                    <div class="service" >
                         <div class="header-service d-flex align-items-center">
                           <i class="fas fa-ambulance"></i>
                             <h5 class="mb-0 ml-2"> Clínicas y Hospitales <br>
@@ -162,7 +229,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service" id="tamaño-minimo">
+                    <div class="service" >
                         <div class="header-service d-flex align-items-center">
                             <i class="fas fa-clinic-medical"></i>
                             <h5 class="mb-0 ml-2">Isapres</h5>
@@ -179,7 +246,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service" id="tamaño-minimo">
+                    <div class="service" >
                         <div class="header-service d-flex align-items-center">
                             <i class="fa fa-credit-card"></i>
                             <h5 class="mb-0 ml-2">BANCOS y TC</h5>
@@ -196,7 +263,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service" id="tamaño-minimo">
+                    <div class="service" >
                         <div class="header-service d-flex align-items-center">
                           <i class="fas fa-music"></i>
                             <h5 class="mb-0 ml-2">Eventos masivos y fiestas</h5>
@@ -213,7 +280,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service" id="tamaño-minimo">
+                    <div class="service" >
                         <div class="header-service d-flex align-items-center">
                             <i class="fas fa-building"></i>
                             <h5 class="mb-0 ml-2">Inmobiliarias</h5>
@@ -230,7 +297,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service" id="tamaño-minimo">
+                    <div class="service" >
                         <div class="header-service d-flex align-items-center">
                             <i class="fa fa-cart-arrow-down"></i>
                             <h5 class="mb-0 ml-2">Compras Online</h5>
@@ -394,6 +461,9 @@
 </main>
 <!--connecting js files-->
 <!--modernizr.js-->
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5511091.js"></script>
+<!-- End of HubSpot Embed Code -->
 <script src="js/modernizr-custom.js"></script>
 <!--jQuery-->
 <script src="js/jquery-3.2.1.min.js"></script>

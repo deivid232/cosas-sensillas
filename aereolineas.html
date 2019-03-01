@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <title>Reclamar Sirve</title>
+    <!--required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="html template">
+    <meta name="author" content="JD-Themes">
+    <!--color theme of the status-bar (Chrome, Firefox OS and Opera)-->
+    <meta name="theme-color" content="#0288d1">
+    <!--iOS safari status-bar-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent">
+    <!--windows phone status-bar-->
+    <meta name="msapplication-navbutton-color" content="#0288d1">
+    <meta name="msapplication-TileColor" content="#0288d1">
+    <meta name="msapplication-TileImage" content="img/favicon.ico">
+    <!--favicon-->
+    <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico">
+    <link rel="SHORTCUT ICON" type="image/x-icon" href="img/favicon.ico">
+    <!--page title-->
+    <title>Strict</title>
+    <!--сonnecting css files-->
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--owl-carousel-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!--owl-theme-->
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!--core(bootstrap)-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--main css(custom)-->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- my design -->
+    <link rel="stylesheet" href="css/mydesign.css">
+</head>
+<body>
+<!--page wrapper-->
+<main id="wrapper" class="d-flex flex-column">
+  <!--[1] Header-->
+  <header>
+      <div class="top-bar">
+          <div class="container d-flex justify-content-between align-items-center">
+              <div class="social-box">
+                  <a href="https://www.instagram.com/reclamarsirve/"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/Reclamar-sirve-342462676341010/"><i class="fa fa-facebook"></i></a>
+                  <a href="https://twitter.com/reclamarsirve"><i class="fa fa-twitter"></i></a>
+              </div>
+              <div class="info-box d-flex">
+                  <a href="tel:" class="mr-3"><i class="fa fa-phone"></i>+1800 1234 5678</a>
+                  <a href="mailto:reclamarsirve@gmail.com"><i class="fa fa-envelope"></i>reclamarsirve@gmail.com</a>
+              </div>
+          </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container ">
+              <a class="navbar-brand d-flex align-items-center" href="index.html">
+                  <img src="http://via.placeholder.com/100x50" class="img-fluid" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fa fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse navbar-right justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-medium" href="#contactanos">Contactanos</a>
+                    </li>
+                      <li class="nav-item">
+                          <a class="nav-link font-weight-medium" href="#">Inicio</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+  <!--[2] Breadcrumbs-->
+<section id="breadcrumbs" style="background-image: url(imagenes/avion3.jpg)">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+        <h1 class="text-white font-weight-bold text-center mb-1">¿Tuviste algún problema con Aerolíneas <br>
+          o Agencias de viajes?</h1><br>
+          <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Reclamar ahora</button>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Confía en nosotros.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="post" action="mandarmail.php">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Pedro">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="apellido">Apellido</label>
+              <input type="text"  class="form-control" id="apellido" placeholder="Perez">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="pedroperez@gmail.com">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Telefono</label>
+              <input type="number" class="form-control" id="inputPassword4" placeholder="+56 9 777687792">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Cúentanos tu caso.</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</section>
+    <!--[2] About Team-->
+    <!--[3] FAQ-->
+<section id="faq">
+    <div class="container">
+      <h1 class="col-lg text-center">Infórmate<br></h1>
+        <div class="row">
+            <div class="col-lg">
+                <div id="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <h6 class="mb-0">
+                                <a data-toggle="collapse" href="#collapse1"
+                                    class="btn-accord">
+                                    1.- ¿Cuáles son las obligaciones de las Aerolíneas, Agencias de viajes y de Transporte de pasajeros?
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="collapse1" class="collapse" role="tabpanel"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="mb-0">
+                                    Las aerolíneas y Agencias de viajes, tanto nacionales como extranjeras,
+                                    deben cumplir con las obligaciones le impone la Ley y los contratos celebrados con los pasajeros.
+                                    <br>
+                                    NO pueden obligarte a viajar en condiciones diferentes a las ofrecidas al momento de contratar el servicio.
+                                    <br>
+                                    La publicidad debe ser verdadera, comprobable y nunca inducir a error o engaño a los consumidores.<br>
+                                    Las empresas tiene la obligación de transparentar los costos finales incluyendo tasas de embarques y otros impuestos.<br>
+                                    El precio ofrecido debe respetarse, las empresas no pueden cobrar ni un peso más.
+
+                                    <br>
+                                    Recuerda que las empresas de aerolíneas y viajes tienen la obligación de cumplir con:
+                                    <br>
+                                     -	El horario y fecha indicado en el pasaje.<br>
+                                     - 	Las condiciones establecidas en el contrato.<br>
+                                     -	No cobrar sobre lo indicado en la publicidad o contrato.<br>
+                                     -	Cuidar que no se produzcan situaciones de violencia o discriminación de su personal o de terceros durante el servicio.<br>
+                                     -	Velar por la seguridad del viaje en todo momento.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingTwo">
+                            <h6 class="mb-0">
+                                <a class="collapsed btn-accord" data-toggle="collapse"
+                                   href="#collapse2"
+                                   aria-expanded="false" >
+                                    2.- ¿Qué puedo hacer si fueron vulnerados mis derechos como consumidor?
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="collapse2" class="collapse" role="tabpanel"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <h6 class="mb-0">
+                                  Tienes que distinguir en base a la naturaleza y monto de los perjuicios ocasionados como causa de la infracción
+                                  del proveedor a la Ley del Consumidor, pudiendo Reclamar mediante el SERNAC o a través de un abogado,
+                                  la diferencia principal es que a través de un defensor privado puedes solicitar, negociar y obtener una
+                                  indemnización monetaria por los los perjuicios ocasionados; además de una multa al proveedor del servicio que
+                                  pasó a llevar tus derechos.
+                                </h6>.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingThree">
+                            <h6 class="mb-0">
+                                <a class="collapsed btn-accord" data-toggle="collapse"
+                                   href="#collapse3"
+                                   aria-expanded="false" >
+                                    3.- ¿Cual es el plazo que tengo para reclamar?
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="collapse3" class="collapse" role="tabpanel"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <h6 class="mb-0">
+                                  El plazo para denunciar y demandar a una empresa en el Juzgado de Policía Local por infracción a los derechos del
+                                  consumidor es de 6 meses a contar de la infracción. Vencido dicho plazo se puede recurrir a la justicia ordinaria
+                                  en un plazo que puede ser hasta 5 años desde que se generó el incumplimiento, llegando en algunos casos hasta 10 años.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingFour">
+                            <h6 class="mb-0">
+                                <a class="collapsed btn-accord" data-toggle="collapse"
+                                   href="#collapse4"
+                                   aria-expanded="false">
+                                    4.-	¿Qué documentos necesito para iniciar una acción judicial?
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="collapse4" class="collapse" role="tabpanel"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <h6 class="mb-0">
+                                  Lo más importante es guardar los antecedentes relacionados con el caso y que sirven para probar tus afirmaciones:<br>
+                                  El contrato celebrado, la boleta de servicios, alguna grabación de whatsapp, foto, video, testigos del hecho,
+                                  constatar lesiones, correos electrónicos; todo puede servir de base para probar el incumplimiento del proveedor
+                                  se servicios.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingFive">
+                            <h6 class="mb-0">
+                                <a class="collapsed btn-accord" data-toggle="collapse"
+                                   href="#collapse5"
+                                   aria-expanded="false">
+                                    5.-	¿Qué beneficios puedo obtener con la ayuda de reclamarsirve? ¿Cuál es la diferencia con acudir al Servicio Nacional del Consumidor (SERNAC)?
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="collapse5" class="collapse" role="tabpanel"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <h6 class="mb-0">
+                                  Nuestros servicios nacen como una ayuda a todas las personas que vieron vulnerados sus derechos como consumidor,
+                                  fueron discriminados o pasados a llevar,  somos una opción y una herramienta para hacer valer tus derechos.
+                                  Siendo representado por un abogado en reclamarsirve, puedes no solo solicitar una multa en contra de la empresa
+                                  infractora, sino que también negociar una indemnización monetaria a tu favor por los perjuicios ocasionados.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingFive">
+                            <h6 class="mb-0">
+                                <a class="collapsed btn-accord" data-toggle="collapse"
+                                   href="#collapse6"
+                                   aria-expanded="false">
+                                    6.- 	¿Qué se entiende por perjuicios en este tipo de casos?
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="collapse6" class="collapse" role="tabpanel"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <h6 class="mb-0">
+                                  Los perjuicios abarcan desde lo pagado por el servicio o producto, hasta una indemnización por
+                                  el daño moral que te produjo la infracción a la Ley del Consumidor
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingFive">
+                            <h6 class="mb-0">
+                                <a class="collapsed btn-accord" data-toggle="collapse"
+                                   href="#collapse7"
+                                   aria-expanded="false">
+                                    7.-	¿Dónde puedo saber sobre mis derechos como consumidor?
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="collapse7" class="collapse" role="tabpanel"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <h6 class="mb-0">
+                                  <a href="https://www.sernac.cl/portal/607/w3-propertyname-596.html">
+                                    7.-	Revisa aquí cuáles son tus derechos como consumidor.</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingFive">
+                            <h6 class="mb-0">
+                                <a class="collapsed btn-accord" data-toggle="collapse"
+                                   href="#collapse8"
+                                   aria-expanded="false">
+                                    8.-	¿Existen casos similares al mío?
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="collapse8" class="collapse" role="tabpanel"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <h6 class="mb-0">
+                                  <a href="https://www.instagram.com/p/BtRh5jKhOc8/?utm_source=ig_web_copy_link">Caso 1: Cancelación del vuelo</a>
+                                  <a href="https://www.instagram.com/p/BstZh-ogk8O/?utm_source=ig_web_copy_link"><br>Caso 2: Luna de miel</a>
+                                  <a href="https://www.instagram.com/p/BstcCYYgGU0/?utm_source=ig_web_copy_link"><br>Caso 3: Seguridad en la prestación del servicio (quemaduras)</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- sections contacto -->
+    <section id="contact-mini" class="seccion-contacto">
+        <div class="container-fluid">
+            <div class="row">
+              <a name="contactanos"></a>
+                <div class="col-md col-contact contactos-servicios-1" style="background: url(imagenes/contacto3.jpg); color:white !important;">
+                    <div class="contact-box">
+                        <h2 class="section-title font-weight-bold mb-1 color-white text-center">Estamos aquí para ayudarte<span
+                                class="font-weight-black color-white"> contáctanos</span></h2>
+                        <p class="mb-4 color-white text-center">Es tiempo que conozcas tus derechos y los exijas.</p>
+                        <form id="form-mini" style="padding:0 30vh 0 30vh;" action="mailto:reclamarsirve@gmail.com">
+                            <div class="row-input d-flex transparente color-white">
+                                <input type="text" name="name" placeholder="Nombre *" class="first-item">
+                                <input type="text" name="email" placeholder="Email *">
+                            </div>
+                            <div class="row-input d-flex transparente color-white">
+                                <input type="text" name="phone" placeholder="Telefono" class="first-item">
+                                <input type="text" name="subject" placeholder="Tema">
+                            </div>
+                            <textarea class="transparente" name="message" id="textarea" placeholder="Mensaje"></textarea>
+                            <p class="text-center"><button type="submit">Enviar</button></p>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!--[16] Footer-->
+    <footer>
+        <div class="container">
+
+            <div class="row widget-row">
+              <div class="col-xl-4 col-md-4 ">
+                  <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">Síguenos
+                      <span>En</span></h5>
+                  <div class="contact-widget">
+                      <p class="mb-3">Creemos comunidad.<br>
+                         Basta de abusos, ya llego la hora de que los consumidores hagan valer sus derechos.</p>
+                      <div class="social-box d-flex mb-3">
+                          <div class="mr-2">
+                              <a href="https://www.instagram.com/reclamarsirve/" class="d-flex justify-content-center align-items-center"><i
+                                      class="fa fa-instagram"></i></a>
+                          </div>
+                          <div class="mr-2">
+                              <a href="https://www.facebook.com/Reclamar-sirve-342462676341010/" class="d-flex justify-content-center align-items-center"><i
+                                      class="fa fa-facebook"></i></a>
+                          </div>
+                          <div class="mr-2">
+                              <a href="https://twitter.com/reclamarsirve" class="d-flex justify-content-center align-items-center"><i
+                                      class="fa fa-twitter"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+                <div class="col-xl-4 col-md-4 ">
+                    <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">Encuentranos
+                        <span>en</span></h5>
+                    <div class="contact-widget">
+                        <p class="mb-3">Reclama ahora y recibe lo que corresponde.</p>
+                        <div class="info-contact d-flex mb-2">
+                            <div><i class="fa fa-map-marker"></i></div>
+                            <p class="mb-0"><a href="https://www.google.com/maps/place/Hu%C3%A9rfanos+1147,+Santiago,+Regi%C3%B3n+Metropolitana/@-33.4396268,-70.6550505,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c5a4150b6b87:0x7a6c56bc373e0932!8m2!3d-33.4396268!4d-70.6528618">huerfanos</a></p>
+                        </div>
+                        <div class="info-contact d-flex mb-2">
+                            <div><i class="fa fa-phone"></i></div>
+                            <p class="mb-0">+1800 1234 5678</p>
+                        </div>
+                        <div class="info-contact d-flex mb-2">
+                            <div><i class="fa fa-envelope"></i></div>
+                            <p class="mb-0"><a href="mailto:reclamarsirve@gmail.com">reclamarsirve@gmail.com</a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">reclama<span>ahora</span>
+                    </h5>
+                    <p class="footer-subtitle-widget mb-3">BASTA DE ABUSOS</p>
+                    <ol class="fast-links-widget pl-0">
+                        <li class="mb-1 pb-1">
+                            <a href="#contactanos">CONTACTANOS</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+<!--connecting js files-->
+<!--modernizr.js-->
+<script src="js/modernizr-custom.js"></script>
+<!--jQuery-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!--YTP player-->
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<!--countUp.js-->
+<script src="js/countUp.min.js"></script>
+<!--imageloaded.js-->
+<script src="js/imageloaded.js"></script>
+<!--waypoints.js-->
+<script src="js/jquery.waypoints.min.js"></script>
+<!--owl-carousel.js-->
+<script src="js/owl.carousel.min.js"></script>
+<!--parallax.js-->
+<script src="js/parallax.js"></script>
+<!--shuffle.js-->
+<script src="js/jquery.shuffle.min.js"></script>
+<!--particles.js-->
+<script src="js/particles.min.js"></script>
+<!--particles config-->
+<script src="js/particle-config.js"></script>
+<!--bootstrap.js-->
+<script src="js/bootstrap.js"></script>
+<!--custom js-file-->
+<script src="js/main.js"></script>
+<!--  mi js-->
+<script src="js/myjs.js"></script>
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5511091.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+</body>
+</html>
