@@ -52,8 +52,7 @@
                     <a href="https://twitter.com/reclamarsirve"><i class="fa fa-twitter"></i></a>
                 </div>
                 <div class="info-box d-flex">
-                    <a href="tel:" class="mr-3"><i class="fa fa-phone"></i>+1800 1234 5678</a>
-                    <a href="mailto:reclamarsirve@gmail.com"><i class="fa fa-envelope"></i>reclamarsirve@gmail.com</a>
+                    <a href="tel:+56981373858" class="mr-3"><i class="fa fa-phone"></i>LLamar</a>
                 </div>
             </div>
         </div>
@@ -66,11 +65,9 @@
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
+                  <button type="button" style="margin:1.2vh 0 1.2vh 0;" class="btn btn-md btn-primary font-weight-medium" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contactanos</button>
                 <div class="collapse navbar-collapse navbar-right justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                      <li class="nav-item">
-                          <a class="nav-link font-weight-medium" href="#contactanos">Contactanos</a>
-                      </li>
                         <li class="nav-item">
                             <a class="nav-link font-weight-medium" href="#">Inicio</a>
                         </li>
@@ -93,7 +90,7 @@
               Estudio de abogados expertos en exigir <br>tus derechos como consumidor </h3>
               <h5 class="text-white font-weight-bold text-center mb-1">
                 Consulta con un abogado, es gratis <br> </h5>
-            <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Reclamar ahora</button>
+            <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contactanos</button>
       </div>
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -139,48 +136,26 @@
     </div>
   </div>
   </section>
-
-    <form id="main-contact-form" class="contact-form" name="contact-form" method="post">
-      <div class="col-sm-5 col-sm-offset-1">
-          <div class="form-group">
-             <label>Nombre *</label>
-             <input type="text" id="nombre" name="nombre" class="form-control" required="required">
-           </div>
-
-           <div class="form-group">
-              <label>Email *</label>
-              <input type="email" id="email" name="email" class="form-control" required="required">
-           </div>
-
-           <div class="form-group">
-               <label>Asunto *</label>
-               <input type="text" id="subject" name="subject" class="form-control" required="required">
-           </div>
-
-           <div class="form-group">
-                <label>Mensaje *</label>
-                <textarea name="mensaje" id="mensaje" required="required" class="form-control" rows="8"></textarea>
-           </div>
-
-           <div class="form-group">
-                <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg" value="enviar" />
-           </div>
-      </div>
-</form>
+    <a name="servicios"></a>
     <section id="services">
         <div class="container">
-          <a name="servicios"></a>
           <h1 class="section-title text-center font-weight-black"><span
                   class="font-weight-black"> ¿Tuviste problemas con alguno de estos servicios?</span></h1>
             <div class="row d-flex align-items-stretch">
                 <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service" >
-                        <div class="header-service  text-center d-flex">
-                            <h1 class="text-center"><i class="fas fa-plane " style="font-size: 100px; padding: 0 0 0 30px;"></i></h1>
+                    <div class="service">
+                        <div class="header-service d-flex align-items-center">
+                            <i class="fas fa-plane"></i>
+                            <h5 class="mb-0 ml-2">Aereolineas y Agencias de viajes</h5>
                         </div>
                         <div class="service-body">
-                              <h5 class="mb-0 ml-2">Aereolineas y Agencias de viajes</h5><br>
-                            <a class="nav-link font-weight-medium btn btn-info" href="1aereolineas.html">Informate</a>
+                            <p class="mb-0">
+                              ¿Se atrasó o canceló el vuelo? <br>
+                              ¿Te cobraron demás?<br>
+                              ¿Fueron distintas las condiciones del viaje a las pactadas? <br>
+                              ¿Se produjeron situaciones de violencia o discriminación?
+                            </p>
+                            <a class="nav-link font-weight-medium btn btn-info" href="aereolineas.html">Informate</a>
                         </div>
                         <div class="anim-bar"></div>
                     </div>
@@ -284,8 +259,7 @@
                             ¿El departamento o casa no cumple con las condiciones del contrato?<br>
                             ¿Mala adminsitración del corredor de propiedades?
                           </p>
-                          <a class="nav-link font-weight-medium btn btn-info" href="1inmobiliarias.html">Informate</a>
-                        </div>
+                          <a class="nav-link font-weight-medium btn btn-info" href="1inmobiliarias.html">Informate</a>                        </div>
                         <div class="anim-bar"></div>
                     </div>
                 </div>
@@ -324,8 +298,8 @@
         </div>
     </section>
     <!--[3] Welcome Section-->
+    <a name="informate"></a>
     <section id="welcome-section">
-      <a name="informate"></a>
         <div class="container">
             <h2 class="section-title text-center font-weight-bold ">Informate sobre tus<span
                     class="font-weight-black"> derechos</span></h2>
@@ -371,24 +345,30 @@
         <div class="container-fluid">
             <div class="row">
               <a name="contactanos"></a>
-                <div class="col-md col-contact contactos-servicios-1" style="background: url(imagenes/contacto3.jpg); color:white !important;">
-                    <div class="contact-box">
+                <div class="col-md col-contact" style="background: url(imagenes/contacto3.jpg); color:white !important;">
+                  <div class="row justify-content-center">
+                    <div class="contact-box col-md-8">
                         <h2 class="section-title font-weight-bold mb-1 color-white text-center">Estamos aquí para ayudarte<span
                                 class="font-weight-black color-white"> contáctanos</span></h2>
                         <p class="mb-4 color-white text-center">Es tiempo que conozcas tus derechos y los exijas.</p>
-                        <form id="form-mini" style="padding:0 30vh 0 30vh;" action="mailto:reclamarsirve@gmail.com">
+                        <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="enviar.php" >
                             <div class="row-input d-flex transparente color-white">
-                                <input type="text" name="name" placeholder="Nombre *" class="first-item">
-                                <input type="text" name="email" placeholder="Email *">
+                              <input type="text" id="nombre" name="nombre" class="form-control first-item" required="required" placeholder="Nombre *">
+                              <input type="email" id="email" name="email" class="form-control" required="required" placeholder="Email *">
                             </div>
-                            <div class="row-input d-flex transparente color-white">
-                                <input type="text" name="phone" placeholder="Telefono" class="first-item">
-                                <input type="text" name="subject" placeholder="Tema">
+                            <div class="row-input d-flex transparente color-black">
+                              <input type="text" id="telefono" name="telefono" class="form-control first-item" required="required" placeholder="Telefono">
+                              <input type="text" id="subject" name="subject" class="form-control" required="required" placeholder="Asunto">
                             </div>
-                            <textarea class="transparente" name="message" id="textarea" placeholder="Mensaje"></textarea>
-                            <p class="text-center"><button type="submit">Enviar</button></p>
+                            <div class=" transparente color-white">
+                              <textarea name="mensaje" id="mensaje" required="required" class="form-control transparente" rows="8" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="form-group">
+                                 <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg" value="enviar" />
+                            </div>
                         </form>
                     </div>
+                  </div>
             </div>
         </div>
     </section>
@@ -418,7 +398,7 @@
                         </div>
                         <div class="info-contact d-flex mb-2">
                             <div><i class="fa fa-phone"></i></div>
-                            <p class="mb-0">+1800 1234 5678</p>
+                            <a href="tel:+56981373858" class="mb-0">+56981373858</a>
                         </div>
                         <div class="info-contact d-flex mb-2">
                             <div><i class="fa fa-envelope"></i></div>

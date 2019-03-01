@@ -9,7 +9,7 @@
       $telefono = $_POST['telefono'];
       $subject = $_POST['subject'];
       $mensaje = $_POST['mensaje'];
-      $para = 'david.aguilo232@gmail.com';
+      $para = 'reclamarsirve@gmail.com';
 
       //Creamos cabecera.
       $headers = 'From' . " " . $email . "\r\n";
