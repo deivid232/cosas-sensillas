@@ -31,15 +31,10 @@
          echo "<script language='javascript'>
             alert('Mensaje enviado, muchas gracias.');
          </script>";
-
     } else {
          echo "<script language='javascript'>
             alert('fallado');
          </script>";
     }
   }
-
 ?>
-<script type="text/javascript">
-    document.location = "index.php";
-</script>

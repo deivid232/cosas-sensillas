@@ -85,9 +85,6 @@
             </div>
         </nav>
     </header>
-
-    <!--[2] Home Section-->
-    <section>
     <!--[2] Breadcrumbs-->
   <section id="breadcrumbs" style="background-image: url(imagenes/portada-abogado-3.png)">
       <div class=" float-left container d-flex flex-column justify-content-center align-items-center">
@@ -98,7 +95,7 @@
                 Consulta con un abogado, es gratis <br> </h5>
             <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Reclamar ahora</button>
       </div>
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -109,41 +106,40 @@
         </div>
 
         <div class="modal-body text-blue" >
-          <form method="post">
+          <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="enviar.php">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" required="" class="form-control" placeholder="Pedro">
+                <label >Nombre</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" required="required" placeholder="Pedro">
               </div>
               <div class="form-group col-md-6">
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" required="" class="form-control" placeholder="Perez">
+                <label >Email</label>
+                <input type="email" id="email" name="email" class="form-control" required="required" placeholder="pedroperez@gmail.com">
               </div>
               <div class="form-group col-md-6">
-                <label for="email">Email</label>
-                <input type="email" name="email" required="" class="form-control" placeholder="pedroperez@gmail.com">
+                <label >Telefono</label>
+                <input type="text" id="telefono" name="telefono" class="form-control" required="required" placeholder="+56 9 777687792">
               </div>
               <div class="form-group col-md-6">
-                <label for="telefono">Telefono</label>
-                <input type="text" name="telefono" required="" class="form-control" placeholder="+56 9 777687792">
+                <label >Asunto</label>
+                <input type="text" id="subject" name="subject" class="form-control" required="required" placeholder="Agencia de viajes">
               </div>
             </div>
             <div class="form-group">
-              <label for="asunto" class="col-form-label">Cúentanos tu caso.</label>
-              <textarea name="asunto"  required="" class="form-control"></textarea>
+              <label class="col-form-label">Cúentanos tu caso.</label>
+              <textarea name="mensaje" id="mensaje" required="required" class="form-control" rows="8" placeholder="Cuentanos tu experiencia"></textarea>
             </div>
-            <div class="modal-footer">
+            <div class="form-group">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <input type="submit" name="enviar" class="btn btn-primary" >
+              <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg" value="enviar" />
             </div>
           </form>
-          <?php
-            include("mandarmail.php")
-          ?>
         </div>
       </div>
     </div>
+  </div>
   </section>
+
     <form id="main-contact-form" class="contact-form" name="contact-form" method="post">
       <div class="col-sm-5 col-sm-offset-1">
           <div class="form-group">
@@ -171,9 +167,6 @@
            </div>
       </div>
 </form>
-<?php
-  include("enviar.php")
-?>
     <section id="services">
         <div class="container">
           <a name="servicios"></a>
