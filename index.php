@@ -45,14 +45,12 @@
     <!--[1] Header-->
     <header>
         <div class="top-bar">
-            <div class="container d-flex justify-content-between align-items-center">
+            <div class="container d-flex justify-content-center align-items-center">
                 <div class="social-box">
-                    <a href="https://www.instagram.com/reclamarsirve/"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/Reclamar-sirve-342462676341010/"><i class="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/reclamarsirve"><i class="fa fa-twitter"></i></a>
-                </div>
-                <div class="info-box d-flex">
-                    <a href="tel:+56981373858" class="mr-3"><i class="fa fa-phone"></i>LLamar</a>
+                    <a href="https://www.instagram.com/reclamarsirve/"><i class="fab fa-instagram icon-top-bottom" style="font-size: 2rem;"></i></a>
+                    <a href="https://www.facebook.com/Reclamar-sirve-342462676341010/"><i class="fa fa-facebook icon-top-bottom" style="font-size: 2rem;"></i></a>
+                    <a href="https://twitter.com/reclamarsirve"><i class="fa fa-twitter icon-top-bottom" style="font-size: 2rem;"></i></a>
+                    <a href="tel:+56981373858" class="mr-4"> <i class="fa fa-phone icon-top-bottom" style="font-size: 2rem;"></i></a>
                 </div>
             </div>
         </div>
@@ -61,12 +59,12 @@
                 <a class="navbar-brand d-flex align-items-center" href="#">
                     <img src="http://via.placeholder.com/100x50" class="img-fluid" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                <button type="button" style="margin:1.2vh 0 1.2vh 0;" class="btn btn-md btn-primary rounded bonton-estilo " data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contactanos</button>
+                <button class="navbar-toggler font-weight-light"   type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                  <button type="button" style="margin:1.2vh 0 1.2vh 0;" class="btn btn-md btn-primary font-weight-medium" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contactanos</button>
-                <div class="collapse navbar-collapse navbar-right justify-content-end" id="navbarNav">
+                <div class="collapse navbar-collapse navbar-right justify-content-end " id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link font-weight-medium" href="#">Inicio</a>
@@ -83,17 +81,27 @@
         </nav>
     </header>
     <!--[2] Breadcrumbs-->
-  <section id="breadcrumbs" style="background-image: url(imagenes/portada-abogado-3.png)">
-      <div class=" float-left container d-flex flex-column justify-content-center align-items-center">
-          <h1 class="text-white font-weight-bold text-center mb-1">Servicio jurídico de confianza</h1><br>
-            <h3 class="text-white font-weight-bold text-left mb-1">
-              Estudio de abogados expertos en exigir <br>tus derechos como consumidor </h3>
-              <h5 class="text-white font-weight-bold text-center mb-1">
-                Consulta con un abogado, es gratis <br> </h5>
-            <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contactanos</button>
-      </div>
+  <section>
+    <div class="jumbotron portada-general">
+      <div class="row" id="" >
+        <div class="col-lg-6 texto-portada">
+          <h1 class="text-center mb-1 font-weight-light ">Servicio jurídico de confianza</h1><br>
+            <div class=" col-lg-10 container d-flex flex-column justify-content-center align-items-center">
+              <h3 class="text-center mb-1 font-weight-light">
+                    Expertos en exigir tus derecho como consumidor. </h3>
+                    <p class="text-center mb-1 font-weight-light">
+                      Consulta gratuitamente  con un abogado.</p>
+                  <button type="button" class="btn btn-lg btn-primary rounded font-weight-light bonton-estilo" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contactanos</button>
+            </div>
+        </div>
+
+        <div class="col-lg-6 foto-portada">
+          <img src="imagenes/abogado-sin-fondo.png" class="img-fluid" alt="" style="width:100%;">
+        </div>
+    </div>
+    </div>
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Confía en nosotros.</h5>
@@ -139,157 +147,97 @@
     <a name="servicios"></a>
     <section id="services">
         <div class="container">
-          <h1 class="section-title text-center font-weight-black"><span
-                  class="font-weight-black"> ¿Tuviste problemas con alguno de estos servicios?</span></h1>
+          <h1 class="section-title text-center font-weight-normal"><span
+                > ¿Tuviste problemas con alguno de estos servicios?</span></h1>
             <div class="row d-flex align-items-stretch">
-                <div class="col-lg-4 col-md-6 service-box">
+                <div class="col-lg-4 col-md-6 col-sm-6 service-box">
                     <div class="service">
+                      <a href="aereolineas.html">
                         <div class="header-service d-flex align-items-center">
-                            <i class="fas fa-plane"></i>
-                            <h5 class="mb-0 ml-2">Aereolineas y Agencias de viajes</h5>
-                        </div>
-                        <div class="service-body">
-                            <p class="mb-0">
-                              ¿Se atrasó o canceló el vuelo? <br>
-                              ¿Te cobraron demás?<br>
-                              ¿Fueron distintas las condiciones del viaje a las pactadas? <br>
-                              ¿Se produjeron situaciones de violencia o discriminación?
-                            </p>
-                            <a class="nav-link font-weight-medium btn btn-info" href="aereolineas.html">Informate</a>
+                          <i class="fas fa-plane"></i>
+                          <h5 class="mb-0 ml-2">Aereolineas y Agencias de viajes</h5>
+
                         </div>
                         <div class="anim-bar"></div>
+                      </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 service-box">
+                <div class="col-lg-4 col-md-6 col-sm-6 service-box">
                     <div class="service" >
                         <div class="header-service d-flex align-items-center">
                             <i class="fas fa-hotel"></i>
                             <h5 class="mb-0 ml-2">Hoteles, Resort y Turismo</h5>
-                        </div>
-                        <div class="service-body">
-                          <p class="mb-0">¿Fueron distintas las condiciones de hospedaje o viaje a las pactadas?<br>
-                            ¿Te cobraron demás?<br>
-                            ¿Te obligaron a vacacionar en otras condiciones?<br>
-                            ¿Se produjeron situaciones de violencia o discriminación?
-                          </p>
-                          <a class="nav-link font-weight-medium btn btn-info" href="1hoteles.html">Informate</a>
+                            <p class="invisibles">a</p>
                         </div>
                         <div class="anim-bar"></div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 service-box">
+                <div class="col-lg-4 col-md-6 col-sm-6 service-box">
                     <div class="service" >
                         <div class="header-service d-flex align-items-center">
                           <i class="fas fa-ambulance"></i>
-                            <h5 class="mb-0 ml-2"> Clínicas y Hospitales <br>
-                              (Negligencia Medíca)
-                            </h5>
-                        </div>
-                        <div class="service-body">
-                          <p class="mb-0">¿Te cobraron de más?<br>
-                            ¿Fuiste vícitima de un mal servicio - negligencia médica?<br>
-                            ¿Te están cobrando sobre lo acordado?<br>
-                            ¿Se produjeron situaciones de violencia o discriminación?
-                          </p>
-                          <a class="nav-link font-weight-medium btn btn-info" href="1clinicas.html">Informate</a>
+                          <h5 class="mb-0 ml-2"> Clínicas y Hospitales</h5>
+                          <p class="invisibles">a</p>
                         </div>
                         <div class="anim-bar"></div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 service-box">
+                <div class="col-lg-4 col-md-6 col-sm-6 service-box">
                     <div class="service" >
                         <div class="header-service d-flex align-items-center">
                             <i class="fas fa-clinic-medical"></i>
                             <h5 class="mb-0 ml-2">Isapres</h5>
-                        </div>
-                        <div class="service-body">
-                          <p class="mb-0">¿La Isapre no quiere cubrir tu enfermedad?<br>
-                            ¿Fuiste vícitima de un mal servicio?<br>
-                            ¿Cobros abusivos?<br>
-                            ¿Te llegó la carta de alza unilateral de la Isapre?
-                          </p><br><br>
-                          <a class="nav-link font-weight-medium btn btn-info" href="1isapres.html">Informate</a>
+                            <p class="invisibles">a</p>
                         </div>
                         <div class="anim-bar"></div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 service-box">
+                <div class="col-lg-4 col-md-6 col-sm-6 service-box">
                     <div class="service" >
                         <div class="header-service d-flex align-items-center">
                             <i class="fa fa-credit-card"></i>
-                            <h5 class="mb-0 ml-2">BANCOS y TC</h5>
-                        </div>
-                        <div class="service-body">
-                          <p class="mb-0">¿Cobros e intereses abusivos?<br>
-                            ¿Repactación unilateral de la deuda?<br>
-                            ¿No te permiten terminar un contrato?<br>
-                            ¿Mala prestación del servicio?
-                          </p><br><br><br>
-                            <a class="nav-link font-weight-medium btn btn-info " href="1bancos.html">Informate</a>
+                            <h5 class="mb-0 ml-2">Banco y TC</h5>
+                            <p class="invisibles">a</p>
                         </div>
                         <div class="anim-bar"></div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 service-box">
+                <div class="col-lg-4 col-md-6 col-sm-6 service-box">
                     <div class="service" >
                         <div class="header-service d-flex align-items-center">
                           <i class="fas fa-music"></i>
                             <h5 class="mb-0 ml-2">Eventos masivos y fiestas</h5>
-                        </div>
-                        <div class="service-body">
-                          <p class="mb-0">¿Malas condiciones de servicio?<br>
-                            ¿Se sobrevendieron entradas?<br>
-                            ¿No fue lo prometido?<br>
-                            ¿Se produjeron situaciones de violencia o discriminación?
-                          </p><br><br>
-                          <a class="nav-link font-weight-medium btn btn-info" href="1eventos.html">Informate</a>
+                            <p class="invisibles">a</p>
                         </div>
                         <div class="anim-bar"></div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service" >
+                <div class="col-lg-4 col-md-6 col-sm-6 service-box">
+                    <div class="service">
                         <div class="header-service d-flex align-items-center">
                             <i class="fas fa-building"></i>
                             <h5 class="mb-0 ml-2">Inmobiliarias</h5>
+                            <p class="invisibles">a</p>
                         </div>
-                        <div class="service-body">
-                          <p class="mb-0">¿Problemas con la entrega del inmueble?<br>
-                            ¿Problemas con la administración del condominio?<br>
-                            ¿El departamento o casa no cumple con las condiciones del contrato?<br>
-                            ¿Mala adminsitración del corredor de propiedades?
-                          </p>
-                          <a class="nav-link font-weight-medium btn btn-info" href="1inmobiliarias.html">Informate</a>                        </div>
                         <div class="anim-bar"></div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 service-box">
+                <div class="col-lg-4 col-md-6 col-sm-6 service-box">
                     <div class="service" >
                         <div class="header-service d-flex align-items-center">
                             <i class="fa fa-cart-arrow-down"></i>
                             <h5 class="mb-0 ml-2">Compras Online</h5>
-                        </div>
-                        <div class="service-body">
-                          <p class="mb-0">¿No están respetando el precio señalado?<br>
-                            ¿Producto defectuoso o en mal estado?<br >
-                            ¿Publicidad engañosa?<br>
-                          </p><br><br><br><br>
-                          <a class="nav-link font-weight-medium btn btn-info" href="1compras.html">Informate</a>
+                            <h5 class="invisibles">a</h5>
                         </div>
                         <div class="anim-bar"></div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service" id="tamaño-minimo">
+                <div class="col-lg-4 col-md-6 col-sm-6 service-box">
+                    <div class="service">
                         <div class="header-service d-flex align-items-center">
                             <i class="fas fa-donate"></i>
                             <h5 class="mb-0 ml-2">Otros Productos y Servicios</h5>
-                        </div>
-                        <div class="service-body">
-                          <p class="mb-0">¿Algún otro problema con otro producto o servicio?<br>
-                            ¿fuiste vícitima de un mal servicio?<br>
-                          </p><br><br><br>
-                          <a class="nav-link font-weight-medium btn btn-info" href="1otros.html">Informate</a>
+                            <h5 class="invisibles">a</h5>
                         </div>
                         <div class="anim-bar"></div>
                     </div>
@@ -345,9 +293,9 @@
         <div class="container-fluid">
             <div class="row">
               <a name="contactanos"></a>
-                <div class="col-md col-contact" style="background: url(imagenes/contacto3.jpg); color:white !important;">
+                <div class="col-md" style="background: url(imagenes/contacto3.jpg); color:white !important;">
                   <div class="row justify-content-center">
-                    <div class="contact-box col-md-8">
+                    <div class="contact-box col-md-7">
                         <h2 class="section-title font-weight-bold mb-1 color-white text-center">Estamos aquí para ayudarte<span
                                 class="font-weight-black color-white"> contáctanos</span></h2>
                         <p class="mb-4 color-white text-center">Es tiempo que conozcas tus derechos y los exijas.</p>
@@ -363,8 +311,8 @@
                             <div class=" transparente color-white">
                               <textarea name="mensaje" id="mensaje" required="required" class="form-control transparente" rows="8" placeholder="Mensaje"></textarea>
                             </div>
-                            <div class="form-group">
-                                 <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg" value="enviar" />
+                            <div class="form-group text-center">
+                                 <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg rounded bonton-estilo" value="enviar" />
                             </div>
                         </form>
                     </div>
@@ -456,8 +404,6 @@
 <script src="js/jquery.shuffle.min.js"></script>
 <!--particles.js-->
 <script src="js/particles.min.js"></script>
-<!--particles config-->
-<script src="js/particle-config.js"></script>
 <!--bootstrap.js-->
 <script src="js/bootstrap.js"></script>
 <!--custom js-file-->

@@ -1,13 +1,3 @@
-#counters:before, .particle-home:before, .video-home:before {
-  background-color: rgba(0, 0, 0, 0); }
-.mb_YTPTime{}
-.buttonBar{
-margin-top: 10rem;
-margin-left: 10rem;
-
-  color: white;
-}
-
 .posts-servicios{
 background-color: white !important;
 }
@@ -22,13 +12,7 @@ background-color: white !important;
 .fotos-servicios{
   margin: 0 0 0 0;
 }
-.texto-carrusel{
-  position: absolute;
-  float: left;
-}
-.carrusel-portada{
-  padding: 5vh 0 -10vh 0;
-}
+
 .respuestas{
   padding: 12vh 0 0 0;
 }
@@ -66,7 +50,35 @@ filter: alpha(opacity=80);
   padding: 1.5vh 57vh 1.5vh 57vh;
 }
 
-/*  Foto landing servicios*/
-#breadcrumbs{
-    height: 480px !important;
+/* sombra y estilo de los servicion en el index*/
+
+.service-box .service{
+  border-radius: 5px 5px 5px 5px !important;
+  box-shadow: 0 10px 20px #bebcbc !important;
+  box-sizing: content-box !important;
+}
+
+.invisibles{
+  visibility: hidden;
+}
+/* estilo head portada*/
+.portada-general{
+margin: 5vh 0 0 0 !important;
+}
+.texto-portada{
+  padding: 15vh 0 0 0 !important;
+}
+.foto-portada{
+  padding: 6vh 1vh 0 1vh !important;
+}
+.icon-top-bottom{
+  font-size: 2rem !important;
+  padding: 0 1rem 0 1rem !important;
+}
+.top-bar{
+  padding-top: 0.3rem !important;
+  padding-bottom: 2rem !important;
+}
+.bonton-estilo{
+  box-shadow: 0 10px 20px #bebcbc !important;
 }
