@@ -24,6 +24,8 @@
     <!--page title-->
     <title>Strict</title>
     <!--сonnecting css files-->
+    <!-- my design -->
+    <link rel="stylesheet" href="css/mydesign.css">
     <!--font-awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -36,8 +38,6 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!--main css(custom)-->
     <link rel="stylesheet" href="css/main.css">
-    <!-- my design -->
-    <link rel="stylesheet" href="css/mydesign.css">
 </head>
 <body>
 <!--page wrapper-->
