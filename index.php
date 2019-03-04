@@ -47,7 +47,7 @@
         <div class="top-bar">
             <div class="container d-flex justify-content-center align-items-center">
                 <div class="social-box">
-                    <a href="https://www.instagram.com/reclamarsirve/"><i class="fab fa-instagram icon-top-bottom" style="font-size: 2rem;"></i></a>
+                    <a href="https://www.instagram.com/reclamarsirve/" target="_blank"><i class="fab fa-instagram icon-top-bottom" style="font-size: 2rem;"></i></a>
                     <a href="https://www.facebook.com/Reclamar-sirve-342462676341010/"><i class="fa fa-facebook icon-top-bottom" style="font-size: 2rem;"></i></a>
                     <a href="https://twitter.com/reclamarsirve"><i class="fa fa-twitter icon-top-bottom" style="font-size: 2rem;"></i></a>
                     <a href="tel:+56981373858" class="mr-4"> <i class="fa fa-phone icon-top-bottom" style="font-size: 2rem;"></i></a>
@@ -56,10 +56,10 @@
         </div>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container ">
-                <a class="navbar-brand d-flex align-items-center" href="#inicio">
+                <a class="navbar-brand float-center" href="#inicio">
                     <img src="imagenes/inmobiliaria.png" class="img-fluid" alt="">
                 </a>
-                <button type="button" class="btn btn-md btn-primary rounded bonton-estilo float-center" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contáctanos</button>
+                <button type="button" class="btn btn-md btn-primary rounded bonton-estilo" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contáctanos</button>
                 <button class="navbar-toggler font-weight-light"   type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>

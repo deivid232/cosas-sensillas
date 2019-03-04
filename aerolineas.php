@@ -56,9 +56,9 @@
       </div>
       <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container ">
-              <a class="navbar-brand d-flex align-items-center" href="index.php">
-                  <img src="imagenes/inmobiliaria.png" class="img-fluid" alt="">
-              </a>
+            <a class="navbar-brand d-flex" href="index.php">
+                <img src="imagenes/inmobiliaria.png" class="img-fluid" alt="">
+            </a>
               <button type="button" class="btn btn-md btn-primary rounded bonton-estilo " data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contáctanos</button>
               <button class="navbar-toggler font-weight-light"   type="button" data-toggle="collapse" data-target="#navbarNav"
                       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
