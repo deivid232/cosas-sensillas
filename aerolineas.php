@@ -36,42 +36,44 @@
     <!--main css(custom)-->
     <link rel="stylesheet" href="css/main.css">
     <!-- my design -->
-    <link rel="stylesheet" href="css/mydesign.css">
+    <link rel="stylesheet" href="css/estilo-propio.css">
 </head>
 <body>
 <!--page wrapper-->
 <main id="wrapper" class="d-flex flex-column">
   <!--[1] Header-->
+  <!--[1] Header-->
   <header>
       <div class="top-bar">
-          <div class="container d-flex justify-content-between align-items-center">
+          <div class="container d-flex justify-content-center align-items-center">
               <div class="social-box">
-                  <a href="https://www.instagram.com/reclamarsirve/"><i class="fab fa-instagram"></i></a>
-                  <a href="https://www.facebook.com/Reclamar-sirve-342462676341010/"><i class="fa fa-facebook"></i></a>
-                  <a href="https://twitter.com/reclamarsirve"><i class="fa fa-twitter"></i></a>
-              </div>
-              <div class="info-box d-flex">
-                  <a href="tel:" class="mr-3"><i class="fa fa-phone"></i>+1800 1234 5678</a>
-                  <a href="mailto:reclamarsirve@gmail.com"><i class="fa fa-envelope"></i>reclamarsirve@gmail.com</a>
+                  <a href="https://www.instagram.com/reclamarsirve/"><i class="fab fa-instagram icon-top-bottom" style="font-size: 2rem;"></i></a>
+                  <a href="https://www.facebook.com/Reclamar-sirve-342462676341010/"><i class="fa fa-facebook icon-top-bottom" style="font-size: 2rem;"></i></a>
+                  <a href="https://twitter.com/reclamarsirve"><i class="fa fa-twitter icon-top-bottom" style="font-size: 2rem;"></i></a>
+                  <a href="tel:+56981373858" class="mr-4"> <i class="fa fa-phone icon-top-bottom" style="font-size: 2rem;"></i></a>
               </div>
           </div>
       </div>
       <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container ">
-              <a class="navbar-brand d-flex align-items-center" href="index.html">
+              <a class="navbar-brand d-flex align-items-center" href="#">
                   <img src="http://via.placeholder.com/100x50" class="img-fluid" alt="">
               </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              <button type="button" class="btn btn-md btn-primary rounded bonton-estilo " data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contáctanos</button>
+              <button class="navbar-toggler font-weight-light"   type="button" data-toggle="collapse" data-target="#navbarNav"
                       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="fa fa-bars"></i>
               </button>
-              <div class="collapse navbar-collapse navbar-right justify-content-end" id="navbarNav">
+              <div class="collapse navbar-collapse navbar-right justify-content-end " id="navbarNav">
                   <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link font-weight-medium" href="#contactanos">Contactanos</a>
-                    </li>
                       <li class="nav-item">
-                          <a class="nav-link font-weight-medium" href="#">Inicio</a>
+                          <a class="nav-link font-weight-medium" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link font-weight-medium" href="#informacion">Infórmate</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link font-weight-medium" href="#informacion"> <i class="fa fa-phone"></i>LLámanos</a>
                       </li>
                   </ul>
               </div>
@@ -83,62 +85,60 @@
     <div class="container d-flex flex-column justify-content-center align-items-center">
         <h1 class="text-white font-weight-bold text-center mb-1">¿Tuviste algún problema con Aerolíneas <br>
           o Agencias de viajes?</h1><br>
-          <button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Reclamar ahora</button>
+          <button type="button" class="btn btn-lg btn-primary rounded font-weight-light bonton-estilo-4" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contáctanos</button>
     </div>
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Confía en nosotros.</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form method="post" action="mandarmail.php">
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="nombre">Nombre</label>
-              <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Pedro">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="apellido">Apellido</label>
-              <input type="text"  class="form-control" id="apellido" placeholder="Perez">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="inputEmail4">Email</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="pedroperez@gmail.com">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="inputPassword4">Telefono</label>
-              <input type="number" class="form-control" id="inputPassword4" placeholder="+56 9 777687792">
-            </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Confía en nosotros.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-          <div class="form-group">
-            <label for="message-text" class="col-form-label">Cúentanos tu caso.</label>
-            <textarea class="form-control" id="message-text"></textarea>
+
+          <div class="modal-body text-blue" >
+            <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="enviar.php">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" id="nombre" name="nombre" class="form-control" required="required" placeholder="Nombre">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" id="email" name="email" class="form-control" required="required" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" id="telefono" name="telefono" class="form-control" required="required" placeholder="Telefono">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" id="subject" name="subject" class="form-control" required="required" placeholder="Asunto">
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea name="mensaje" id="mensaje" required="required" class="form-control" rows="8" placeholder="Cuentanos tu experiencia"></textarea>
+              </div>
+              <div class="form-group d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary btn-lg bonton-estilo-3 rounded " data-dismiss="modal">Cerrar</button>
+                <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg bonton-estilo-3 rounded" value="Enviar" />
+              </div>
+            </form>
           </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 </section>
-    <!--[2] About Team-->
     <!--[3] FAQ-->
 <section id="faq">
     <div class="container">
-      <h1 class="col-lg text-center">Infórmate<br></h1>
-        <div class="row">
-            <div class="col-lg">
+      <h1 class="section-title text-center font-weight-normal"><span
+            > Infórmate</span></h1>
+        <div class="row text-center">
+          <div class="col-md-1">
+          </div>
+            <div class="col-12 col-sm-12 col-md-12 col-md-offset-1 col-lg-10 col-xl-10">
                 <div id="accordion" role="tablist">
                     <div class="card">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <h6 class="mb-0">
+                        <div class="card-header card-header-propio-landing " role="tab" id="headingOne">
+                            <h6 class="mb-0 text-center">
                                 <a data-toggle="collapse" href="#collapse1"
                                     class="btn-accord">
                                     1.- ¿Cuáles son las obligaciones de las Aerolíneas, Agencias de viajes y de Transporte de pasajeros?
@@ -171,7 +171,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header" role="tab" id="headingTwo">
+                        <div class="card-header card-header-propio-landing" role="tab" id="headingTwo">
                             <h6 class="mb-0">
                                 <a class="collapsed btn-accord" data-toggle="collapse"
                                    href="#collapse2"
@@ -194,7 +194,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header" role="tab" id="headingThree">
+                        <div class="card-header card-header-propio-landing" role="tab" id="headingThree">
                             <h6 class="mb-0">
                                 <a class="collapsed btn-accord" data-toggle="collapse"
                                    href="#collapse3"
@@ -215,7 +215,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header" role="tab" id="headingFour">
+                        <div class="card-header card-header-propio-landing" role="tab" id="headingFour">
                             <h6 class="mb-0">
                                 <a class="collapsed btn-accord" data-toggle="collapse"
                                    href="#collapse4"
@@ -237,7 +237,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header" role="tab" id="headingFive">
+                        <div class="card-header card-header-propio-landing" role="tab" id="headingFive">
                             <h6 class="mb-0">
                                 <a class="collapsed btn-accord" data-toggle="collapse"
                                    href="#collapse5"
@@ -259,7 +259,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header" role="tab" id="headingFive">
+                        <div class="card-header card-header-propio-landing" role="tab" id="headingFive">
                             <h6 class="mb-0">
                                 <a class="collapsed btn-accord" data-toggle="collapse"
                                    href="#collapse6"
@@ -279,7 +279,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header" role="tab" id="headingFive">
+                        <div class="card-header card-header-propio-landing" role="tab" id="headingFive">
                             <h6 class="mb-0">
                                 <a class="collapsed btn-accord" data-toggle="collapse"
                                    href="#collapse7"
@@ -299,7 +299,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header" role="tab" id="headingFive">
+                        <div class="card-header card-header-propio-landing" role="tab" id="headingFive">
                             <h6 class="mb-0">
                                 <a class="collapsed btn-accord" data-toggle="collapse"
                                    href="#collapse8"
@@ -324,71 +324,28 @@
         </div>
     </div>
 </section>
-    <!-- sections contacto -->
-    <section id="contact-mini" class="seccion-contacto">
-        <div class="container-fluid">
-            <div class="row">
-              <a name="contactanos"></a>
-                <div class="col-md col-contact contactos-servicios-1" style="background: url(imagenes/contacto3.jpg); color:white !important;">
-                    <div class="contact-box">
-                        <h2 class="section-title font-weight-bold mb-1 color-white text-center">Estamos aquí para ayudarte<span
-                                class="font-weight-black color-white"> contáctanos</span></h2>
-                        <p class="mb-4 color-white text-center">Es tiempo que conozcas tus derechos y los exijas.</p>
-                        <form id="form-mini" style="padding:0 30vh 0 30vh;" action="mailto:reclamarsirve@gmail.com">
-                            <div class="row-input d-flex transparente color-white">
-                                <input type="text" name="name" placeholder="Nombre *" class="first-item">
-                                <input type="text" name="email" placeholder="Email *">
-                            </div>
-                            <div class="row-input d-flex transparente color-white">
-                                <input type="text" name="phone" placeholder="Telefono" class="first-item">
-                                <input type="text" name="subject" placeholder="Tema">
-                            </div>
-                            <textarea class="transparente" name="message" id="textarea" placeholder="Mensaje"></textarea>
-                            <p class="text-center"><button type="submit">Enviar</button></p>
-                        </form>
-                    </div>
-            </div>
-        </div>
-    </section>
     <!--[16] Footer-->
     <footer>
         <div class="container">
+            <div class="row widget-row float-center">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">Reclama<span> ahora</span>
+                    </h5>
+                    <p class="footer-subtitle-widget mb-3">Creemos comunidad. <br>Basta de abusos,
+                       ya llegó la hora de que los consumidores hagan valer sus derechos.</p>
+                </div>
 
-            <div class="row widget-row">
-              <div class="col-xl-4 col-md-4 ">
-                  <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">Síguenos
-                      <span>En</span></h5>
-                  <div class="contact-widget">
-                      <p class="mb-3">Creemos comunidad.<br>
-                         Basta de abusos, ya llego la hora de que los consumidores hagan valer sus derechos.</p>
-                      <div class="social-box d-flex mb-3">
-                          <div class="mr-2">
-                              <a href="https://www.instagram.com/reclamarsirve/" class="d-flex justify-content-center align-items-center"><i
-                                      class="fa fa-instagram"></i></a>
-                          </div>
-                          <div class="mr-2">
-                              <a href="https://www.facebook.com/Reclamar-sirve-342462676341010/" class="d-flex justify-content-center align-items-center"><i
-                                      class="fa fa-facebook"></i></a>
-                          </div>
-                          <div class="mr-2">
-                              <a href="https://twitter.com/reclamarsirve" class="d-flex justify-content-center align-items-center"><i
-                                      class="fa fa-twitter"></i></a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-                <div class="col-xl-4 col-md-4 ">
-                    <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">Encuentranos
-                        <span>en</span></h5>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">Encuéntranos
+                        <span> en</span></h5>
                     <div class="contact-widget">
-                        <p class="mb-3">Reclama ahora y recibe lo que corresponde.</p>
                         <div class="info-contact d-flex mb-2">
                             <div><i class="fa fa-map-marker"></i></div>
-                            <p class="mb-0"><a href="https://www.google.com/maps/place/Hu%C3%A9rfanos+1147,+Santiago,+Regi%C3%B3n+Metropolitana/@-33.4396268,-70.6550505,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c5a4150b6b87:0x7a6c56bc373e0932!8m2!3d-33.4396268!4d-70.6528618">huerfanos</a></p>
+                            <p class="mb-0"><a href="https://www.google.com/maps/place/Av.+Sta.+Rosa+17,+Santiago,+Regi%C3%B3n+Metropolitana/@-33.4433708,-70.6484697,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c5a03b3b47a9:0xbea5ff09cdc35a17!8m2!3d-33.4433708!4d-70.646281">Avenida Santa Rosa 17,  oficina 41.</a></p>
                         </div>
                         <div class="info-contact d-flex mb-2">
                             <div><i class="fa fa-phone"></i></div>
-                            <p class="mb-0">+1800 1234 5678</p>
+                            <a href="tel:+56981373858" class="mb-0">Llámanos</a>
                         </div>
                         <div class="info-contact d-flex mb-2">
                             <div><i class="fa fa-envelope"></i></div>
@@ -396,15 +353,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4">
-                    <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">reclama<span>ahora</span>
-                    </h5>
-                    <p class="footer-subtitle-widget mb-3">BASTA DE ABUSOS</p>
-                    <ol class="fast-links-widget pl-0">
-                        <li class="mb-1 pb-1">
-                            <a href="#contactanos">CONTACTANOS</a>
-                        </li>
-                    </ol>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">Síguenos
+                        <span> En</span></h5>
+                    <div class="contact-widget">
+                        <div class="d-flex mb-3 social-box">
+                            <div class="mr-2">
+                                <a href="https://www.instagram.com/reclamarsirve/"><i class="fab fa-instagram icon-footer-bottom" style="font-size: 2rem;"></i></a>
+                            </div>
+                            <div class="mr-2">
+                                <a href="https://www.facebook.com/Reclamar-sirve-342462676341010/"><i class="fa fa-facebook icon-footer-bottom" style="font-size: 2rem;"></i></a>
+                            </div>
+                            <div class="mr-2">
+                                <a href="https://twitter.com/reclamarsirve"><i class="fa fa-twitter icon-footer-bottom" style="font-size: 2rem;"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

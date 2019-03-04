@@ -59,7 +59,7 @@
                 <a class="navbar-brand d-flex align-items-center" href="#">
                     <img src="http://via.placeholder.com/100x50" class="img-fluid" alt="">
                 </a>
-                <button type="button" style="margin:1.2vh 0 1.2vh 0;" class="btn btn-md btn-primary rounded bonton-estilo " data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contáctanos</button>
+                <button type="button" class="btn btn-md btn-primary rounded bonton-estilo " data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contáctanos</button>
                 <button class="navbar-toggler font-weight-light"   type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
@@ -67,13 +67,16 @@
                 <div class="collapse navbar-collapse navbar-right justify-content-end " id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link font-weight-medium" href="#">Inicio</a>
+                            <a class="nav-link font-weight-medium" href="#index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link font-weight-medium" href="#servicios">Servicios</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link font-weight-medium" href="#informate">Infórmate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-medium" href="#informacion"> <i class="fa fa-phone"></i> LLámanos</a>
                         </li>
                     </ul>
                 </div>
@@ -114,29 +117,24 @@
           <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="enviar.php">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label >Nombre</label>
-                <input type="text" id="nombre" name="nombre" class="form-control" required="required" placeholder="Pedro">
+                <input type="text" id="nombre" name="nombre" class="form-control" required="required" placeholder="Nombre">
               </div>
               <div class="form-group col-md-6">
-                <label >Email</label>
-                <input type="email" id="email" name="email" class="form-control" required="required" placeholder="pedroperez@gmail.com">
+                <input type="email" id="email" name="email" class="form-control" required="required" placeholder="Email">
               </div>
               <div class="form-group col-md-6">
-                <label >Telefono</label>
-                <input type="text" id="telefono" name="telefono" class="form-control" required="required" placeholder="+56 9 777687792">
+                <input type="text" id="telefono" name="telefono" class="form-control" required="required" placeholder="Telefono">
               </div>
               <div class="form-group col-md-6">
-                <label >Asunto</label>
-                <input type="text" id="subject" name="subject" class="form-control" required="required" placeholder="Agencia de viajes">
+                <input type="text" id="subject" name="subject" class="form-control" required="required" placeholder="Asunto">
               </div>
             </div>
             <div class="form-group">
-              <label class="col-form-label">Cúentanos tu caso.</label>
               <textarea name="mensaje" id="mensaje" required="required" class="form-control" rows="8" placeholder="Cuentanos tu experiencia"></textarea>
             </div>
             <div class="form-group d-flex justify-content-center">
-              <button type="button" class="btn btn-secondary btn-lg bonton-estilo-3 rounded " data-dismiss="modal">Close</button>
-              <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg bonton-estilo-3 rounded" value="enviar" />
+              <button type="button" class="btn btn-secondary btn-lg bonton-estilo-3 rounded " data-dismiss="modal">Cerrar</button>
+              <input type="submit" id="submit" name="submit" class="btn btn-primary btn-lg bonton-estilo-3 rounded" value="Enviar" />
             </div>
           </form>
         </div>
@@ -152,7 +150,7 @@
             <div class="row d-flex align-items-stretch">
                 <div class="col-lg-4 col-md-6 col-sm-6 service-box">
                     <div class="service">
-                      <a href="aereolineas.html">
+                      <a href="aerolineas.html">
                         <div class="header-service d-flex align-items-center">
                           <i class="fas fa-plane"></i>
                           <h5 class="mb-0 ml-2">Aerolíneas y Agencias de viajes</h5>
@@ -247,6 +245,67 @@
     </section>
     <!--[3] Welcome Section-->
     <a name="informate"></a>
+    <section id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div id="accordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header card-header-propio" role="tab" id="headingOne">
+                                <h1 class="mb-0 text-center" href="#collapse1" data-toggle="collapse">
+                                    <a
+                                        class="btn-accord text-white" href="#collapse1" data-toggle="collapse">
+                                        Infórmate sobre tus derechos
+                                    </a>
+                                </h1>
+                            </div>
+                            <div id="collapse1" class="collapse" role="tabpanel"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                  <div class="row">
+                                      <div class="col-xl info-col">
+                                          <h5 class="mb-3">La ley de protección al consumidor establece una serie de herramientas con el fin de repara el daño causado por un mal servicio o producto.</h5>
+                                          <p class="mb-3 text-info-col">Como consumidor puedes solicitar el cobro de una multa al proveedor mas una indemnización por
+                                             los perjuicios ocasionados a tu persona o familiares.
+                                          </p>
+                                          <p class="mb-3 text-info-col">Como consumidor tiene los siguientes derechos:
+                                          </p>
+                                          <div class="d-flex align-items-center service mb-2">
+                                              <i class="fa fa-check-circle-o"></i>
+                                              <p class=" link mb-0 font-weight-medium">  Derecho a que las empresas NO cambien las condiciones o costos del contrato si no estas de acuerdo.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center service mb-2">
+                                              <i class="fa fa-check-circle-o"></i>
+                                              <p class="mb-0 font-weight-medium">Derecho a la reparación e indemnización por el daño causado.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center service mb-2">
+                                              <i class="fa fa-check-circle-o"></i>
+                                              <p class="mb-0 font-weight-medium">Derecho a solicitar una multa en contra de la empresa que prestó el servicio de forma deficiente.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center service mb-2">
+                                              <i class="fa fa-check-circle-o"></i>
+                                              <p class="mb-0 font-weight-medium">Derecho a garantía, cambio, devolución o reparación por el producto o servicio.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center service mb-2">
+                                              <i class="fa fa-check-circle-o"></i>
+                                              <p class="mb-0 font-weight-medium">Derecho a la seguridad en el consumo de bienes y servicios: sin agresiones, ofensas y intimidaciones.</p>
+                                          </div>
+                                          <div class="d-flex align-items-center service mb-2">
+                                              <i class="fa fa-check-circle-o"></i>
+                                              <p class="mb-0 font-weight-medium">Haz respetar tus derechos.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <a name="informate"></a>
     <section id="welcome-section">
         <div class="container">
             <h2 class="section-title text-center font-weight-bold ">Infórmate sobre tus<span> derechos</span></h2>
@@ -286,15 +345,15 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- sections contacto -->
-    <section id="contact-mini" class="seccion-contacto">
+    <a name="contactanos"></a>
+    <section id="contact-mini">
         <div class="container-fluid">
             <div class="row">
-              <a name="contactanos"></a>
-                <div class="col-md" style="background: url(imagenes/contacto3.jpg)">
+                <div class="col-md col-contact image-fluid" style="background-image: url(imagenes/contacto3.jpg); background-size: 100%; background-repeat: no-repeat; background-size: cover;">
                   <div class="row justify-content-center">
-                    <div class="contact-box col-md-7">
+                    <div class="form-contact col-md-10">
                         <h2 class="section-title mb-1 text-white text-center">Estamos aquí para ayudarte
                           <span> contáctanos</span></h2>
                         <p class="mb-4 text-white text-center">Es tiempo que conozcas tus derechos y los exijas.</p>
@@ -318,34 +377,30 @@
                   </div>
             </div>
         </div>
+      </div>
     </section>
     <!--[16] Footer-->
     <footer>
         <div class="container">
-            <div class="row widget-row">
-                <div class="col-xl-4 col-md-4">
-                    <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">reclama<span>ahora</span>
+            <div class="row widget-row float-center">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">Reclama<span> ahora</span>
                     </h5>
-                    <p class="footer-subtitle-widget mb-3">BASTA DE ABUSOS</p>
-                    <ol class="fast-links-widget pl-0">
-                        <li class="mb-1 pb-1">
-                            <a href="#contactanos">CONTÁCTANOS</a>
-                        </li>
-                    </ol>
+                    <p class="footer-subtitle-widget mb-3">Creemos comunidad. <br>Basta de abusos,
+                       ya llegó la hora de que los consumidores hagan valer sus derechos.</p>
                 </div>
 
-                <div class="col-xl-4 col-md-4 ">
-                    <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">Encuentranos
-                        <span>en</span></h5>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">Encuéntranos
+                        <span> en</span></h5>
                     <div class="contact-widget">
-                        <p class="mb-3">Reclama ahora y recibe lo que corresponde.</p>
                         <div class="info-contact d-flex mb-2">
                             <div><i class="fa fa-map-marker"></i></div>
-                            <p class="mb-0"><a href="https://www.google.com/maps/place/Hu%C3%A9rfanos+1147,+Santiago,+Regi%C3%B3n+Metropolitana/@-33.4396268,-70.6550505,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c5a4150b6b87:0x7a6c56bc373e0932!8m2!3d-33.4396268!4d-70.6528618">huerfanos</a></p>
+                            <p class="mb-0"><a href="https://www.google.com/maps/place/Av.+Sta.+Rosa+17,+Santiago,+Regi%C3%B3n+Metropolitana/@-33.4433708,-70.6484697,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c5a03b3b47a9:0xbea5ff09cdc35a17!8m2!3d-33.4433708!4d-70.646281">Avenida Santa Rosa 17,  oficina 41.</a></p>
                         </div>
                         <div class="info-contact d-flex mb-2">
                             <div><i class="fa fa-phone"></i></div>
-                            <a href="tel:+56981373858" class="mb-0">+56981373858</a>
+                            <a href="tel:+56981373858" class="mb-0">Llámanos</a>
                         </div>
                         <div class="info-contact d-flex mb-2">
                             <div><i class="fa fa-envelope"></i></div>
@@ -353,24 +408,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 ">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                     <h5 class="footer-title-widget font-weight-bold text-white text-uppercase mb-3">Síguenos
-                        <span>En</span></h5>
+                         <span> En</span></h5>
                     <div class="contact-widget">
-                        <p class="mb-3">Creemos comunidad.<br>
-                           Basta de abusos, ya llego la hora de que los consumidores hagan valer sus derechos.</p>
-                        <div class="social-box d-flex mb-3">
+                        <div class="d-flex mb-3 social-box">
                             <div class="mr-2">
-                                <a href="https://www.instagram.com/reclamarsirve/" class="d-flex justify-content-center align-items-center"><i
-                                        class="fa fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/reclamarsirve/"><i class="fab fa-instagram icon-footer-bottom" style="font-size: 2rem;"></i></a>
                             </div>
                             <div class="mr-2">
-                                <a href="https://www.facebook.com/Reclamar-sirve-342462676341010/" class="d-flex justify-content-center align-items-center"><i
-                                        class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/Reclamar-sirve-342462676341010/"><i class="fa fa-facebook icon-footer-bottom" style="font-size: 2rem;"></i></a>
                             </div>
                             <div class="mr-2">
-                                <a href="https://twitter.com/reclamarsirve" class="d-flex justify-content-center align-items-center"><i
-                                        class="fa fa-twitter"></i></a>
+                                <a href="https://twitter.com/reclamarsirve"><i class="fa fa-twitter icon-footer-bottom" style="font-size: 2rem;"></i></a>
                             </div>
                         </div>
                     </div>

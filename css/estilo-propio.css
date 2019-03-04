@@ -73,11 +73,32 @@ filter: alpha(opacity=80);
   box-sizing: content-box !important;
 }
 
+.card-header-propio {
+    padding:2vh 0 2vh 0;
+    background-color: #0188d1;
+    border-radius: 5px 5px 5px 5px !important;
+    box-shadow: 0 15px 30px #bebcbc !important;
+    box-sizing: content-box !important;
+
+}
+/*  seccion contactos index*/
+.form-contact{
+  padding: 5vh 1.5vh 5vh 1.5vh;
+}
+.image-contact{
+  background-image: url("imagenes/contacto3.jpg");
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
 
 /*  Botones de contactos*/
 .bonton-estilo{
   box-shadow: 0 10px 20px #bebcbc !important;
   margin-top: 1rem;
+  margin:1.2vh 0 1.2vh 0
 }
 .bonton-estilo-1{
   box-shadow: 0 10px 20px #a9a9a9 !important;
@@ -91,4 +112,35 @@ filter: alpha(opacity=80);
 .bonton-estilo-3{
   box-shadow: 0 10px 20px #a9a9a9 !important;
   margin: 0.6rem;
+}
+.bonton-estilo-4{
+  box-shadow: 0 10px 20px #000000 !important;
+  margin: 0.6rem;
+}
+/* seccion servicios landing */
+#breadcrumbs {
+    height: 30rem;
+}
+.card-header-propio-landing {
+    padding:1vh 0 1vh 0;
+    background-color: #0188d1;
+    border-radius: 5px 5px 5px 5px !important;
+    box-shadow: 0 10px 20px #bebcbc !important;
+    box-sizing: content-box !important;
+
+}
+/*  seccion footer*/
+.icon-footer-bottom{
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 2rem !important;
+  padding: 0 1rem 0 1rem !important;
+  transition: all .2s linear;
+}
+
+.contact-widget .social-box div {
+    width: 30px;
+    height: 30px;
+    border: none !important;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
 }
