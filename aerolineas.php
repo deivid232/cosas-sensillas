@@ -56,8 +56,8 @@
       </div>
       <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container ">
-              <a class="navbar-brand d-flex align-items-center" href="#">
-                  <img src="http://via.placeholder.com/100x50" class="img-fluid" alt="">
+              <a class="navbar-brand d-flex align-items-center" href="index.php">
+                  <img src="imagenes/inmobiliaria.png" class="img-fluid" alt="">
               </a>
               <button type="button" class="btn btn-md btn-primary rounded bonton-estilo " data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contáctanos</button>
               <button class="navbar-toggler font-weight-light"   type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -67,13 +67,13 @@
               <div class="collapse navbar-collapse navbar-right justify-content-end " id="navbarNav">
                   <ul class="navbar-nav">
                       <li class="nav-item">
-                          <a class="nav-link font-weight-medium" href="index.html">Inicio</a>
+                          <a class="nav-link font-weight-medium" href="index.php">Inició</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link font-weight-medium" href="#informacion">Infórmate</a>
+                          <a class="nav-link font-weight-medium" href="#informate">Infórmate</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link font-weight-medium" href="#informacion"> <i class="fa fa-phone"></i>LLámanos</a>
+                          <a class="nav-link font-weight-medium" href="tel:+56981373858"> <i class="fa fa-phone"></i> LLámanos</a>
                       </li>
                   </ul>
               </div>
@@ -127,6 +127,7 @@
     </div>
 </section>
     <!--[3] FAQ-->
+    <a name="informate"></a>
 <section id="faq">
     <div class="container">
       <h1 class="section-title text-center font-weight-normal"><span
